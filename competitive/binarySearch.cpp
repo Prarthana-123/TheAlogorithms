@@ -22,6 +22,7 @@ int bs(int* arr, int n, int x){
 int main(){
 
 	int arr[]={1,2,3,4,6,7,8};
+	
 	int n=sizeof(arr)/sizeof(arr[0]);
 	cout<<bs(arr,n,7);
 	return 0;
