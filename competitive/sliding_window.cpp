@@ -4,7 +4,7 @@ int maxSum(int arr[], int n, int k)
 {  
     if (n < k) 
     { 
-       cout << "Invalid"; 
+       cout << "Invalid"<<endl; 
        return -1; 
     } 
     int res = 0; 
